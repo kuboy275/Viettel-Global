@@ -4,7 +4,7 @@ $(document).ready(function() {
         infinite: false,
         dots: false,
         slidesToShow: 3.7,
-        slidesToScroll: 3.7,
+        slidesToScroll: 1,
         prevArrow: '<button class="slick-prev slick-arrow"><i class="far fa-long-arrow-left"></i></button>',
         nextArrow: '<button class="slick-next slick-arrow"><i class="far fa-long-arrow-right"></i></button>'
     });
@@ -33,5 +33,13 @@ $(document).ready(function() {
         prevArrow: '<button class="slick-prev slick-arrow"><i class="far fa-long-arrow-left"></i></button>',
         nextArrow: '<button class="slick-next slick-arrow"><i class="far fa-long-arrow-right"></i></button>',
     })
+
+    // CUSTOME QUESTION RECRUITMENT ARROW UP DOWN
+    $('.collapse').on('show.bs.collapse', function() {
+        $(this).siblings('.card-header').addClass('active');
+    })
+    $('.collapse').on('hide.bs.collapse', function() {
+        $(this).siblings('.card-header').removeClass('active');
+    });
 
 });
