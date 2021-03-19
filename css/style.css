@@ -1830,6 +1830,7 @@ button:focus {
     outline: none;
     font-size: 18px;
     color: #BDBDBD;
+    font-family: "Gilroy";
 }
 
 .vtg-news .search input::placeholder {
@@ -2011,6 +2012,7 @@ button:focus {
 
 .question {
     background: #EEEEEE;
+    padding: 60px 0;
 }
 
 .question .title {
@@ -2019,7 +2021,7 @@ button:focus {
     line-height: 150%;
     text-transform: uppercase;
     color: #000000;
-    padding: 50px 0;
+    padding-bottom: 50px;
 }
 
 .question .toggle-text .card {
@@ -2155,7 +2157,7 @@ button:focus {
 /* description */
 
 .review {
-    margin: 100px 0;
+    margin-top: 100px;
 }
 
 .review .items h1 {
