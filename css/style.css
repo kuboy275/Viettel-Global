@@ -3,6 +3,7 @@
     font-family: 'FS PF BeauSans Pro';
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @font-face {
     font-family: 'FS PF BeauSans Pro';
     src: url(../fonts/FSPFBeauSansPro/FS-PFBeauSansPro-Bbook.ttf);
@@ -206,6 +207,10 @@ button:focus {
 
 
 /* BANNER */
+
+.banner {
+    margin-bottom: 150px;
+}
 
 .banner .carousel .carousel-inner .carousel-item img {
     border-radius: 50px 0px 49px;
@@ -424,11 +429,15 @@ button:focus {
 }
 
 .chart-line .title button {
-    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     box-shadow: none;
     margin-right: 30px;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    color: #333333;
 }
 
 
@@ -794,7 +803,7 @@ button:focus {
     font-size: 40px;
     text-transform: uppercase;
     color: #000000;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .libary .items img {
@@ -1459,13 +1468,9 @@ button:focus {
     margin-top: 150px;
 }
 
-.inv-category .item {
-    position: relative;
-}
-
 .inv-category .item img {
     height: 322px;
-    filter: drop-shadow(0px 5px 15px rgba(221, 221, 221, 0.2));
+    filter: drop-shadow(0px 5px 5px rgba(221, 221, 221, 0.2));
     border-radius: 10px;
     object-fit: cover;
     width: 100%;
@@ -2090,15 +2095,9 @@ button:focus {
     background-image: url(../images/market/rec-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* padding: 50px 0px; */
-    /* height: 100vh; */
     padding-bottom: 70px;
     padding-top: 250px;
     background-position: center;
-}
-
-.rec-banner .content {
-    padding-top: 00px;
 }
 
 .rec-banner .content h1 {
